@@ -40,11 +40,10 @@
 }
 
 #height::placeholder {
-  position: absolute;
   width: 300px;
   height: 48px;
-  top: 14px;
-  font-size: 16px;
+  font-size: 20px;
+  position: relative;
 }
 
 #result-btn {
@@ -64,6 +63,7 @@
 #result-erase {
   border: none;
   text-decoration: underline;
+  font-size: 14px;
 }
 
 #result {
