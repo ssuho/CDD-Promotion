@@ -27,6 +27,7 @@ h1 {
   font-size: 24px;
   margin-top: 48px;
   margin-bottom: 40px;
+  font-weight: 800;
 }
 
 #description {
@@ -43,6 +44,10 @@ h1 {
 #inputs {
   text-align: center;
   margin-top: 90px;
+}
+
+label {
+  font-weight: 800;
 }
 
 #height {
@@ -107,6 +112,7 @@ p {
 #cm {
   margin: 0;
   font-size: 48px;
+  font-weight: 600;
 }
 
 #hr1 {
