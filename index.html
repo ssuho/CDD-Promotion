@@ -37,20 +37,21 @@
 
 <body>
   <h1 class="fade-in">내게 딱 맞는 의자 높이 찾기 🔍</h1>
-  <p id = "description">현대인의 고질병 거북목, 해결하기 위해서는<br>적절한 의자 높이를 찾고 꾸준히 스트레칭을 하는 것이 중요해요.</p>
+  <div class="container">
+  <p id = "description">🐢 현대인의 고질병 거북목! 바른 자세를 유지하기 위해 의자 높이를 적절하게 맞추고, 적어도 한 시간에 한 번 일어나 꾸준히 스트레칭을 하는 것이 좋아요.</p>
   <div id="inputs">
     <label for="input">당신의 키는?</label><br>
-    <input type="text" name="" id="height" placeholder="이곳에 키를 입력해주세요" onfocus="this.placeholder =''" onblur="this.placeholder = '이곳에 키를 입력해주세요'" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="3"><br>
-    <input type="button" id="result-btn" value="확인하기"><br>
-    <input type="button" id="result-erase" value="다시하기">
+    <input type="text" name="" id="height" placeholder="이곳에 키를 입력해주세요. 예&#41; 155" onfocus="this.placeholder =''" onblur="this.placeholder = '이곳에 키를 입력해주세요. 예&#41; 155'" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="3"><br>
+    <input type="button" id="result-btn" value="최적의 의자 높이 확인하기 →"><br>
     <div id="result"></div>
   </div>
 
-  <footer class="fade-in">
+  <footer class="footer">
     <hr id=hr1 class="fade-in">
     <p class="ft" style="font-size: 18px;">자꾸만 거북목이 되는 당신!<br>바른자세 루틴이 필요하다면?</p>
     <a href="https://toss.me/꽁치가르송/100" class="ft2">🐟 <span style="text-decoration: underline;">꽁치에게 100원 선물하기</span> →</a><br><br>
   </footer>
+</div>
 </body>
 
 </html>
