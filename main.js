@@ -9,7 +9,7 @@ function resultMaker() {
   if(addresult<=0){
     alert("정확한 수치를 입력해주세요 😥")
   } else {
-    result.innerHTML = `<img src="./Fynn.webp" alt="꿋북이"><p>당신에게 적절한 의자 높이는 <br><p id="cm">${addresult}cm<br><p><p>`
+    result.innerHTML = `<img src="./Fynn.webp" alt="꿋북이"><p>당신에게 적절한 의자 높이는? <br><p id="cm">${addresult}cm<br><p><p>`
   }
 }
 
