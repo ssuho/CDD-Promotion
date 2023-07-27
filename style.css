@@ -58,7 +58,7 @@ h1 {
 
 #inputs {
   text-align: center;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 label {
@@ -148,9 +148,9 @@ p {
 img {
   margin: 0 auto;
   width: 150px;
-  height: 150px;
 }
 
 #Fynn-main {
-  margin-bottom: 10px;
+  margin-bottom: -15px;
+  width: 120px;
 }
